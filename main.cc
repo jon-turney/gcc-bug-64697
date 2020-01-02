@@ -3,5 +3,5 @@
 
 int main()
 {
-  thread_local_segv_handler(1);
+  thread_local_segv_handler = 1;
 }

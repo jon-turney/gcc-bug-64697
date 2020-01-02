@@ -1,2 +1,2 @@
 
-extern thread_local void (*thread_local_segv_handler) (int);
+extern thread_local int thread_local_segv_handler;
